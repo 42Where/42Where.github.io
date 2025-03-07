@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Where42 # the website title (if blank, full name will be used instead)
+first_name: Where
+middle_name: 42
+last_name:
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Where42 # blog_name will be displayed in your blog page
+blog_description: 42Seoul 클러스터 자리정보 확인 서비스 Where42의 기록 읽을래 말래 읽어줘 제발
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -192,6 +192,10 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/teaching.md
+  - _pages/projects.md
 keep_files:
   - CNAME
   - .nojekyll

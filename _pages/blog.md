@@ -23,9 +23,10 @@ pagination:
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+  <div class="header-bar" style="text-align: left;">
+    <h1 style="font-size: 2rem;">{{ site.blog_name }}</h1>
+    <!-- <h2 style="font-size: 1.5rem;">{{ site.blog_description }}</h2> -->
+    <h2 style="font-size: 1.5rem;">Where42를 개발, 운영하면서 생기는 값진 일들을 기록했습니다.</h2>
   </div>
   {% endif %}
 
